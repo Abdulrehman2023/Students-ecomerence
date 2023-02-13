@@ -1,0 +1,387 @@
+{% extends 'store/main.html' %}
+
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    
+
+<!--Section: View Product image slides-->
+<div class="container">
+	<br> 
+<hr>
+
+	
+<div class="card">
+	<div class="row">
+		<aside class="col-sm-5 border-right">
+<article class="gallery-wrap"> 
+<div class="img-big-wrap">
+  <br><br>
+  <div style=" margin-left: 110px;"> <a href="#"><img src="{% static 'images/TecnoCamon17-b.jpg' %}"></a></div>
+  <br> <br>
+</div> <!-- slider-product.// -->
+<div class="img-small-wrap">
+  <div class="item-gallery"> <img src="{% static 'images/TecnoCamon17-b.jpg' %}"> </div>
+  <div class="item-gallery"> <img src="{% static 'images/TecnoCamon17-b.jpg' %}"> </div>
+  <div class="item-gallery"> <img src="{% static 'images/TecnoCamon17-b.jpg' %}"></div>
+  <div class="item-gallery"><img src="{% static 'images/TecnoCamon17-b.jpg' %}"> </div>
+</div> <!-- slider-nav.// -->
+</article> <!-- gallery-wrap .end// -->
+		</aside>
+		<aside class="col-sm-7">
+<article class="card-body p-5">
+	<h3 class="title mb-3">Original Version of Some product name</h3>
+
+<p class="price-detail-wrap"> 
+	<span class="price h3 text-warning"> 
+		<span class="currency">US $</span><span class="num">1299</span>
+	</span> 
+
+</p> <!-- price-detail-wrap .// -->
+<dl class="item-property">
+  <dt>Description</dt>
+  <dd><p>Here goes description consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco </p></dd>
+</dl>
+<dl class="param param-feature">
+  <dt>Model#</dt>
+  <dd>12345611</dd>
+</dl>  <!-- item-property-hor .// -->
+<dl class="param param-feature">
+  <dt>Color</dt>
+  <dd>Black and white</dd>
+</dl>  <!-- item-property-hor .// -->
+<dl class="param param-feature">
+  <dt>Delivery</dt>
+  <dd>Russia, USA, and Europe</dd>
+</dl>  <!-- item-property-hor .// -->
+
+<hr>
+	<div class="row">
+		<div class="col-sm-5">
+			<dl class="param param-inline">
+			  <dt>Quantity: </dt>
+			  <dd>
+			  	<select class="form-control form-control-sm" style="width:70px;">
+			  		<option> 1 </option>
+			  		<option> 2 </option>
+			  		<option> 3 </option>
+			  	</select>
+			  </dd>
+			</dl>  <!-- item-property .// -->
+		</div> <!-- col.// -->
+		<div class="col-sm-7">
+			<dl class="param param-inline">
+				  <dt>color: </dt>
+				  <dd>
+				  	<label class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+					  <span class="form-check-label">White</span>
+					</label>
+					<label class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+					  <span class="form-check-label">black</span>
+					</label>
+					<label class="form-check form-check-inline">
+					  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+					  <span class="form-check-label">blue</span>
+					</label>
+				  </dd>
+			</dl>  <!-- item-property .// -->
+		</div> <!-- col.// -->
+	</div> <!-- row.// -->
+	<hr>
+	<a href="#" class="btn btn-lg btn-primary text-uppercase"> Buy now </a>
+	<a href="#" class="btn btn-lg btn-outline-primary text-uppercase"> <i class="fas fa-shopping-cart"></i> Add to cart </a>
+</article> <!-- card-body.// -->
+		</aside> <!-- col.// -->
+	</div> <!-- row.// -->
+</div> <!-- card.// -->
+
+
+</div>
+<!--container.//-->
+
+
+<br><br><br>
+
+<!--Section: End View Product image slides-->
+
+  <!-- Spec Table start-->
+  
+    <div class="center_spec">
+
+  <table style="border: 4px solid black" class="specs" width="604" border="0" cellpadding="0" cellspacing="0">
+    <div class="border_center">
+    <tbody>
+    
+    <tr class="RowBG2">
+    <td rowspan="6" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Build</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">OS</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">Android 11 OS &nbsp;
+    </td>
+     </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">UI</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    ColorOS 11.1 &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Dimensions</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    159.1 x 73.3 x 7.8 mm &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Weight</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    173 g &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">SIM</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Dual Sim, Dual Standby (Nano-SIM) &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">Colors</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    Aurora, Stellar Black &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="3" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Frequency</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">2G Band</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border"><b>SIM1:</b> GSM 850 / 900 / 1800 / 1900<br><b>SIM2:</b> GSM 850 / 900 / 1800 / 1900 &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">3G Band</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    HSDPA 850 / 900 / 2100 &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">4G Band</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 20(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500) &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="3" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Processor</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">CPU</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">2.3Ghz Octa Core &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Chipset</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Qualcomm SM7125 Snapdragon 720G (8 nm) &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">GPU</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    Adreno 618 &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="4" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Display</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Technology</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">AMOLED Capacitive Touchscreen, 16M Colors, Multitouch &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Size</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    6.4 Inches &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Resolution</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    1080 x 2400 Pixels (~409 PPI) &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">Extra Features</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    90Hz, 430 nits (typ), 600 nits (HBM), 750 nits (peak) &nbsp;
+    </td>
+    </tr>
+    
+     <tr class="RowBG2">
+    <td rowspan="2" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Memory</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Built-in</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border"><span id="IL_AD6" class="IL_AD">128GB</span> Built-in, 8GB RAM &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">Card</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    microSDXC &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="3" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Camera</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Main</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">Quad Camera: 64 MP, f/1.7, 26mm (wide), 1/2.0", PDAF + 8 MP, f/2.2, (ultrawide), 1/4.0" + 2 MP, f/2.4, (macro) + 2 MP, f/2.4, (depth), dual-LED dual-tone flash &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Features</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Phase detection, Geo-tagging, touch focus, face detection, HDR, panorama, Video (4K@30fps, 1080p@30/60/120fps) &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">Front</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+     44 MP, f/2.4, 24mm (wide), Video (1080p@30/120fps, gyro-EIS) &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="7" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Connectivity</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">WLAN</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Bluetooth</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    v5.1 with A2DP, LE, apt-X HD &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">GPS</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Yes + A-GPS support &amp; Glonass, BDS, GALILEO, QZSS &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Radio</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    FM Radio (Unspecified) &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">USB</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    USB Type-C 2.0, USB On-The-Go  &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">NFC</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Yes &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">Data</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    <font color="#000077"><b>GPRS</b></font>, Edge, 3G (HSPA 42.2/5.76 Mbps), 4G LTE-A
+    &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="7" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Features</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Sensors</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">Accelerometer, Compass, Fingerprint (under display, optical), Gyro, Proximity &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Audio</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    3.5mm Audio Jack, Speaker Phone &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Browser</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    HTML5 &nbsp;
+     </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Messaging</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    SMS(threaded view), MMS, Email, Push Mail, IM &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Games</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Built-in + Downloadable &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Torch</th>
+    <td colspan="2" class="fasla specs-value bottom-border">
+    Yes &nbsp;
+    </td>
+    </tr>
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section">Extra</th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    <span id="IL_AD7" class="IL_AD">Active noise cancellation</span> with dedicated mic, Document editor, Photo/video editor &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG2">
+    <td rowspan="2" style="text-align: left;vertical-align: top;" class="hdngArial specs-mainHeading bottom-border-section">Battery</td>
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border">Capacity</th>
+    <td colspan="2" class="fasla RowBG1 specs-value bottom-border">(Li-Po Non removable), 4310 mAh &nbsp;
+    </td>
+    </tr>
+    
+    <tr class="RowBG1">
+    <th align="left" class="hdngArial specs-subHeading RowBG1 bottom-border-section"></th>
+    <td colspan="2" class="fasla specs-value bottom-border-section">
+    - Fast charging 50W, USB Power Delivery 2.0, VOOC 4.0
+    &nbsp;
+    </td>
+    </tr>
+  
+    </tbody>
+    
+    </table>
+    
+    </div>
+  
+    <br><br><br>
+<!-- Spec Table End-->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        {%  endblock content %}
+
+</body>
+</html>
